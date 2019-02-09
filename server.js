@@ -38,4 +38,7 @@ app.get('/sync', (req, res) => {
     message: 'Sync started'
   })
 })
+
+syncDropbox()
+
 app.listen(PORT, () => console.log(`> Ready on http://localhost:${PORT}`))
